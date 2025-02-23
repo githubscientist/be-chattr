@@ -73,7 +73,13 @@ Chattr is a social media application that allows users to create posts and share
    - To install the dependencies, run the following command:
 
    ```bash
-   npm install express mongoose cors dotenv nodemon morgan jsonwebtoken bcrypt multer
+   npm install express mongoose cors dotenv jsonwebtoken bcrypt multer
+   ```
+
+   - To install the dev dependencies, run the following command:
+
+   ```bash
+   npm install nodemon morgan --save-dev
    ```
 
    - Create a new file called `.env` and add the following environment variables:

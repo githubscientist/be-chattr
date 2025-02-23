@@ -92,12 +92,18 @@ Chattr is a social media application that allows users to create posts and share
 
    - Create a new file called `server.js`
      - Database connection setup
+   - Create a new file called `app.js`
+
      - Express server setup
+
+   - Install postman for testing API from https://www.postman.com/downloads/
+
      - Middleware setup - cors, express.json, morgan, authentication
      - Routes setup
      - Controller setup
      - Model setup
      - Error handling setup
+
    - Following the MVC architecture, create the following folders:
 
      - controllers

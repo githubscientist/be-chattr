@@ -136,3 +136,26 @@ Chattr is a social media application that allows users to create posts and share
    ```bash
    npm install react-router-dom axios react-icons react-toastify tailwindcss @headlessui/react @heroicons/react
    ```
+
+Example of a post request to create a new post:
+
+```javascript
+{
+  "title": "My first post",
+  "content": "This is my first post on Chattr"
+}
+```
+
+```javascript
+{
+  "title": "My second post",
+  "content": "This is my second post on Chattr"
+}
+```
+
+```javascript
+{
+  "title": "My third post",
+  "content": "This is my third post on Chattr"
+}
+```
